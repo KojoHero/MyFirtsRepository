@@ -25,7 +25,7 @@ String kybd_inpt_str = kybd_inpt.nextLine();
 
 		while  (program_running_bool == true) {
 String rpt_wrd = kybd_inpt.nextLine();
-            System.out.println(rpt_wrd);
+            //System.out.println(rpt_wrd);
 
    if(rpt_wrd.equalsIgnoreCase(code_trigger_ender_str)) {
        program_running_bool=false;
@@ -33,7 +33,8 @@ String rpt_wrd = kybd_inpt.nextLine();
             //break;
             System.exit(0);
 
-} } }
+} System.out.println(rpt_wrd);
+} }
   if(kybd_inpt_str.equalsIgnoreCase(code_trigger_ender_str)) {
 
 System.out.println("You have not started");
